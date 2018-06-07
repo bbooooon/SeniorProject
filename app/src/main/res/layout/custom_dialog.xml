@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangna"
+        android:padding="10dp"
+        android:text="ใช่อาหารที่คุณรับประทานหรือไม่?"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/spinner_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ยกเลิก" />
+
+        <Button
+            android:id="@+id/btn_ok_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ตกลง" />
+
+        <Button
+            android:id="@+id/btn_gotonamefoodbyuser"
+            android:text="ใส่ชื่ออาหารเอง"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_re_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="หน้าหลัก" />
+</LinearLayout>

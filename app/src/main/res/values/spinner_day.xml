@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>เช้า</item>
+        <item>กลางวัน</item>
+        <item>เย็น</item>
+    </string-array>
+</resources>

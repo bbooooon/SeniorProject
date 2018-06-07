@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_name_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/cloud"
+        android:gravity="center"
+        android:text="ชื่ออาหาร"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_energy_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/cloud"
+        android:gravity="center"
+        android:text="ค่าพลังงาน"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_meal_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/cloud"
+        android:gravity="center"
+        android:text="มื้อ"
+        android:textColor="@color/black" />
+
+</LinearLayout>

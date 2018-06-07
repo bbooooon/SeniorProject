@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="namefood_array">
+        <item>ผัดซีอิ๊ว</item>
+        <item>ผัดไท</item>
+        <item>ราดหน้า</item>
+        <item>ข้าวขาหมู</item>
+        <item>ข้าวคลุกกะปิ</item>
+        <item>ข้าวหมูแดง</item>
+        <item>ข้าวมันไก่</item>
+        <item>ข้าวหมกไก่</item>
+        <item>ข้าวผัดกระเพราไก่</item>
+        <item>ข้าวไข่เจียว</item>
+    </string-array>
+</resources>
